@@ -159,8 +159,7 @@ WEIGHTS: Dict[str, int] = {
     "🟠 Hidden Bot":           5,   # normal in hosted bots — almost never alone matters
     "🟠 Resource Abuse":      15,
     "🟡 Suspicious Network":  12,
-    "🟡 Obfuscation":         12,
-}
+    "🟡 Obfuscation":         12,}
 
 BOT_TOKEN_RE = re.compile(r'\b\d{8,10}:AA[A-Za-z0-9_-]{33}\b')
 IP_RE        = re.compile(r'\b(?:\d{1,3}\.){3}\d{1,3}\b')
